@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // Ensure that .d.ts files are created by tsc, but not .js files
+    "declaration": true,
+    "allowJs": true,
+    //"emitDeclarationOnly": true,
+    // Ensure that Babel can safely transpile files in the TypeScript project
+    "isolatedModules": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declarationDir": "./dist/types",
+    "declarationMap": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "ES2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports" : true,
+    "noEmit": false,
+    "skipLibCheck": true,
+    "lib": ["DOM", "ES2020"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "rollup.config.js", "dist", "*/__tests__"]
+}

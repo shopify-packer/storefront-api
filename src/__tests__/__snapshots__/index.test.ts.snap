@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Decode Shopify graphql id 1`] = `"243638019"`;
+
+exports[`Decode all encoded shopify ids from a fetch response 1`] = `
+Object {
+  "edges": Array [
+    Object {
+      "node": Object {
+        "id": "243638019",
+        "products": Object {
+          "edges": Array [],
+        },
+        "title": "Home page",
+      },
+    },
+    Object {
+      "node": Object {
+        "id": "257697667",
+        "products": Object {
+          "edges": Array [],
+        },
+        "title": "Antiperistaltic Gold Socks",
+      },
+    },
+    Object {
+      "node": Object {
+        "id": "257697731",
+        "products": Object {
+          "edges": Array [],
+        },
+        "title": "Blistered Aluminum Boat",
+      },
+    },
+    Object {
+      "node": Object {
+        "id": "389242179",
+        "products": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "id": "9895309699",
+                "title": "DKNYPURE PONCHO TOP",
+              },
+            },
+            Object {
+              "node": Object {
+                "id": "9895307139",
+                "title": "DKNYPURE TEE WITH UNDERLAYER",
+              },
+            },
+          ],
+        },
+        "title": "Latest Stuff",
+      },
+    },
+  ],
+}
+`;
+
+exports[`Fetch query returns data 1`] = `
+Object {
+  "data": Object {
+    "collections": Object {
+      "edges": Array [
+        Object {
+          "node": Object {
+            "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI0MzYzODAxOQ==",
+            "products": Object {
+              "edges": Array [],
+            },
+            "title": "Home page",
+          },
+        },
+        Object {
+          "node": Object {
+            "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI1NzY5NzY2Nw==",
+            "products": Object {
+              "edges": Array [],
+            },
+            "title": "Antiperistaltic Gold Socks",
+          },
+        },
+        Object {
+          "node": Object {
+            "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI1NzY5NzczMQ==",
+            "products": Object {
+              "edges": Array [],
+            },
+            "title": "Blistered Aluminum Boat",
+          },
+        },
+        Object {
+          "node": Object {
+            "id": "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzM4OTI0MjE3OQ==",
+            "products": Object {
+              "edges": Array [
+                Object {
+                  "node": Object {
+                    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUzMDk2OTk=",
+                    "title": "DKNYPURE PONCHO TOP",
+                  },
+                },
+                Object {
+                  "node": Object {
+                    "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzk4OTUzMDcxMzk=",
+                    "title": "DKNYPURE TEE WITH UNDERLAYER",
+                  },
+                },
+              ],
+            },
+            "title": "Latest Stuff",
+          },
+        },
+      ],
+    },
+  },
+}
+`;
