@@ -1,6 +1,6 @@
 {
   "name": "@shopify-packer/storefront-api",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "author": "Eric Hayes <eric@hayesmarketing.io>",
   "main": "dist/storefront-api.cjs.js",
   "module": "dist/storefront-api.esm.js",
@@ -44,7 +44,6 @@
     "tag": "latest",
     "access": "public"
   },
-
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
